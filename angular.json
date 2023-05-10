@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "wrapxo_construction:build:production",
+            "firebaseProject": "wrapxo-nc",
+            "firebaseHostingSite": "wrapxo-nc"
+          }
         }
       }
     }
